@@ -1,0 +1,315 @@
+ [
+    {
+"id": 105,
+"question": "Was passiert mit einer Eingabe, wenn sie nicht in einer Variable gespeichert wird?",
+"options": {
+"A": "Sie wird automatisch in einer Datei gespeichert",
+"B": "Sie bleibt im Programm dauerhaft verfügbar",
+"C": "Sie geht nach dem Einlesen verloren und kann nicht weiter verwendet werden",
+"D": "Sie wird automatisch in ein Array übertragen"
+},
+"correctAnswer": "C",
+"explanation": "Wenn eine Eingabe nicht in einer Variable gespeichert wird, kann das Programm später nicht mehr darauf zugreifen. Der Wert geht nach dem Einlesen verloren."
+},
+{
+"id": 106,
+"question": "Warum verwendet man sc.close() in Java?",
+"options": {
+"A": "Mit sc.close() zeigt man Java, dass das Ende des Programs erreicht wurde",
+"B": "um den Scanner sauber zu schließen und Ressourcen freizugeben",
+"C": "um das import Objekt ArrayList sauber zu schlieeßn",
+"D": "sc.close() kann man verwenden oder nicht. Es macht keinen Unterschied"
+},
+"correctAnswer": "B",
+"explanation": "sc.close() wird verwendet, um den Scanner zu schließen und die verwendeten Ressourcen freizugeben. \nDadurch wird die Verbindung zur Eingabequelle sauber beendet."
+},
+{
+"id": 107,
+"question": "Was ist eine Variable in Java?",
+"options": {
+"A": "ein vollständiges Programm",
+"B": "ein Speicherplatz für einen Wert",
+"C": "eine Schleife zur Wiederholung von Code",
+"D": "eine Methode zur Ausführung von Befehlen"
+},
+"correctAnswer": "B",
+"explanation": "Eine Variable ist ein benannter Speicherplatz im Programm, in dem Werte gespeichert werden können. Diese Werte können sich im Verlauf des Programms ändern."
+},
+{
+"id": 108,
+"question": "Was ist der Unterschied zwischen Deklaration und Initialisierung?",
+"options": {
+"A": "beides ist dasselbe",
+"B": "Deklaration = Variable wird erstellt, Initialisierung = Variable bekommt einen Wert",
+"C": "Initialisierung = Variable wird gelöscht",
+"D": "Deklaration = Ausgabe eines Werts im Programm"
+},
+"correctAnswer": "B",
+"explanation": "Bei der Deklaration wird eine Variable erstellt, ohne einen Wert zuzuweisen. Bei der Initialisierung erhält die Variable erstmals einen Wert."
+},
+{
+"id": 109,
+"question": "Was bedeutet der Zuweisungsoperator = in Java?",
+"options": {
+"A": "Vergleich von zwei Werten, die in der Variable ausgegeben werden",
+"B": "Speicherung eines Wertes in einer Variable",
+"C": "Wiederholung von Code (Schleife)",
+"D": "Der Zuweisungsoperator verweist auf die Methode"
+},
+"correctAnswer": "B",
+"explanation": "Der Operator = weist einer Variable einen Wert zu. Der Wert auf der rechten Seite wird in der Variable auf der linken Seite gespeichert."
+},
+{
+"id": 110,
+"question": "Warum sind = und == in Java unterschiedlich?",
+"options": {
+"A": "= weist einen Wert zu, == vergleicht zwei Werte",
+"B": "== weist einen Wert zu, = vergleicht zwei Werte",
+"C": "Beide werden nur zum Vergleichen verwendet",
+"D": "== zeigt das Ergebnis einer Rechenoperation an, = vergleicht zwei Werte"
+},
+"correctAnswer": "A",
+"explanation": "Der Operator = wird zur Zuweisung von Werten verwendet, während == zwei Werte miteinander vergleicht."
+},
+{
+"id": 111,
+"question": "Welche Aussage beschreibt einen Datentyp am besten?",
+"options": {
+"A": "Er bestimmt, wie ein Programm startet",
+"B": "Er legt fest, welche Art von Wert eine Variable speichern kann",
+"C": "Er ist eine Methode zur Ausgabe von Text",
+"D": "Er speichert automatisch alle Eingaben"
+},
+"correctAnswer": "B",
+"explanation": "Ein Datentyp legt fest, welche Art von Daten eine Variable speichern darf, z. B. Zahlen, Texte oder Wahrheitswerte."
+},
+{
+"id": 112,
+"question": "Wofür braucht man ein Semikolon (;) in Java?",
+"options": {
+"A": "zum Start des Befehls",
+"B": "als Ende einer Anweisung",
+"C": "als Abschluss der Klasse",
+"D": "um Variablen sauber zu beenden"
+},
+"correctAnswer": "B",
+"explanation": "Das Semikolon beendet in Java eine Anweisung. Ohne Semikolon entsteht ein Syntaxfehler, da Java nicht erkennt, wo ein Befehl endet."
+},
+{
+"id": 113,
+"question": "Welches aus der folgenden Auswahl kann eine Bedingung in einer Schleife sein?",
+"options": {
+"A": "i = 10",
+"B": "i < 10",
+"C": "System.out.println(i)",
+"D": "int i"
+},
+"correctAnswer": "B",
+"explanation": "Eine Schleifenbedingung muss einen Wahrheitswert liefern (true oder false).\ni < 10 erfüllt diese Bedingung und kann daher in Schleifen verwendet werden.\nA:\ni = 10 falsch: das ist eine Zuweisung, keine Bedingung. Der Wert 10 wird der Variable i zugewiesen. Das ergibt keinen Wahrheitswert."
+},
+{
+"id": 114,
+"question": "Wie ist eine Deklaration aufgebaut?",
+"options": {
+"A": "Datentyp + Variablenname + Wert",
+"B": "Variablenname = Datentyp + Wert",
+"C": "Datentyp + Variablenname",
+"D": "Wert + Variablenname + Datentyp"
+},
+"correctAnswer": "C",
+"explanation": "Eine Deklaration besteht aus Datentyp und Variablenname. Dabei wird die Variable erstellt, aber noch kein Wert zugewiesen."
+},
+{
+"id": 115,
+"question": "Wie werden die Indizes in einem Array festgelegt?",
+"options": {
+"A": "Der Programmierer vergibt sie selbst im Code",
+"B": "Sie werden bei der Eintragung von Daten erzeugt",
+"C": "Sie stehen in den geschweiften Klammern {}",
+"D": "Java vergibt sie automatisch in der Reihenfolge der Werte ab 0"
+},
+"correctAnswer": "D",
+"explanation": "In Java werden Array-Indizes automatisch vergeben. Der erste Wert hat den Index 0, der \nzweite den Index 1 usw."
+},
+{
+"id": 116,
+"question": "Was ist eine ArrayList in Java?",
+"options": {
+"A": "ein festes Array",
+"B": "eine dynamische Liste von Elementen",
+"C": "ein Array, das sich wiederholen kann",
+"D": "eine Auflistung aller verwendbaren Arrays"
+},
+"correctAnswer": "B",
+"explanation": "Eine ArrayList ist eine dynamische Liste, die ihre Größe automatisch anpassen kann. Sie kann wachsen oder schrumpfen, je nach Anzahl der gespeicherten Elemente."
+},
+{
+"id": 117,
+"question": "Welchen Import benötigt man für eine ArrayList?",
+"options": {
+"A": "import java.util.ArrayList;",
+"B": "import java.lang.ArrayList;",
+"C": "import java.array.ArrayList;",
+"D": "kein Import nötig"
+},
+"correctAnswer": "A",
+"explanation": "Die ArrayList gehört zum Paket java.util. Ohne diesen Import funktioniert sie nicht. \nimport java.util.ArrayList;"
+},
+{
+"id": 118,
+"question": "Wie erstellt man eine leere ArrayList für Strings in Java?",
+"options": {
+"A": "ArrayList<String> liste = new ArrayList<>();",
+"B": "ArrayList liste = new String();",
+"C": "String[] liste = new ArrayList();",
+"D": "ArrayList<String> liste;"
+},
+"correctAnswer": "A",
+"explanation": "Eine ArrayList ist eine dynamische Liste in Java, die mehrere Werte speichern kann und ihre Größe flexibel anpasst. \nUm eine leere ArrayList für Strings zu erstellen, braucht man zwei Dinge: den Datentyp in spitzen Klammern (<String>) → legt \nfest, was gespeichert wird und das Schlüsselwort new → erstellt das Objekt im Speicher. Hier passiert: \nArrayList<String> → Liste speichert nur Texte (Strings), liste → Name der Liste, new ArrayList<>() → erzeugt eine neue, \nleere Liste. Wichtig: Die spitzen Klammern sorgen dafür, dass nur Strings in die Liste eingefügt werden können."
+},
+{
+"id": 119,
+"question": "Wie fügt man ein Element in eine ArrayList ein?",
+"options": {
+"A": "liste.add(\"Hallo\");",
+"B": "liste.insert(\"Hallo\");",
+"C": "liste.put(\"Hallo\");",
+"D": "liste = \"Hallo\";"
+},
+"correctAnswer": "A",
+"explanation": "In Java werden Elemente zu einer ArrayList mit der Methode add() hinzugefügt. Diese Methode hängt den neuen Wert am Ende der \nListe an. Eine ArrayList ist dynamisch, das bedeutet: Sie kann während der Laufzeit wachsen, wenn neue Elemente hinzugefügt werden. \nArrayList<String> liste = new ArrayList<>(); \nliste.add(\"Hallo\"); \nliste.add(\"Welt\"); \nZuerst wird eine leere Liste erstellt. Dann wird \"Hallo\" als erstes Element eingefügt. Danach \nwird \"Welt\" als weiteres Element ergänzt. \nWichtig: add() fügt immer ein neues Element in die Liste ein, ohne dass bestehende Werte überschrieben werden."
+},
+{
+"id": 120,
+"question": "Wie greift man auf ein Element in einer ArrayList zu?",
+"options": {
+"A": "liste[0]",
+"B": "liste.get(0)",
+"C": "liste(0)",
+"D": "liste.value(0)"
+},
+"correctAnswer": "B",
+"explanation": "In Java greift man bei einer ArrayList nicht mit eckigen Klammern zu, sondern über die Methode get(). \nDiese Methode gibt das Element an einer bestimmten Position (Index) zurück. Der Index \nbeginnt immer bei 0, das heißt: \n0 = erstes Element, \n1 = zweites Element, \n2 = drittes Element \nusw. \nArrayList<String> liste = new ArrayList<>(); \nliste.add(\"Hallo\"); \nliste.add(\"Welt\"); \nString wert = liste.get(0); \nHier wird \"Hallo\" aus der Liste geholt, weil es an Position 0 steht. \nWichtig: Bei ArrayList verwendet man immer .get(index), nicht [] wie bei normalen \nArrays."
+},
+{
+"id": 121,
+"question": "Wie viele Datentypen kann eine ArrayList in Java speichern?",
+"options": {
+"A": "beliebig viele verschiedene Datentypen gleichzeitig",
+"B": "nur einen festgelegten Datentyp",
+"C": "nur Zahlenwerte (z. B. int oder double)",
+"D": "nur Textwerte (Strings)"
+},
+"correctAnswer": "B",
+"explanation": "Eine ArrayList ist in Java typisiert, das bedeutet: \nSie ist so aufgebaut, dass sie nur einen bestimmten Datentyp speichern darf. Dieser Datentyp wird beim Erstellen der Liste \nfestgelegt, zum Beispiel mit <String> oder <Integer>. \nWichtig: Durch diese feste Typisierung verhindert Java Fehler im Code, \nweil keine gemischten Datentypen erlaubt sind."
+},
+{
+"id": 122,
+"question": "Was ist der Unterschied zwischen Array und ArrayList?",
+"options": {
+"A": "Es gibt keinen Unterschied",
+"B": "ArrayList ist immer schneller als ein Array",
+"C": "Ein Array hat eine feste Größe, eine ArrayList ist flexibel",
+"D": "Eine ArrayList kann nur Zahlen speichern"
+},
+"correctAnswer": "C",
+"explanation": "Der wichtigste Unterschied zwischen einem Array und einer ArrayList ist die Größe der \nDatenstruktur. Ein Array hat eine feste Größe, die beim Erstellen festgelegt wird. Diese Größe kann später nicht mehr verändert werden. \nEine ArrayList ist dagegen dynamisch, das heißt, sie kann während der Laufzeit wachsen oder schrumpfen. Arrays sind statisch \n(feste Größe), ArrayLists sind flexibel (veränderbare Größe)."
+},
+{
+"id": 123,
+"question": "Wie entfernt man ein Element aus einer ArrayList?",
+"options": {
+"A": "liste.delete(0);",
+"B": "liste.remove(0);",
+"C": "liste.clear(0);",
+"D": "liste.new(0);"
+},
+"correctAnswer": "B",
+"explanation": "Eine ArrayList ist eine dynamische Liste aus dem Paket java.util. \nAnders als ein normales Array kann sie ihre Größe verändern und bietet Methoden zum Hinzufügen, Entfernen und \nVerwalten von Elementen. Um ein Element aus einer ArrayList zu löschen, verwendet man \ndie Methode remove(). Diese Methode kann entweder einen Index oder ein Objekt als Parameter bekommen. \nWenn ein Index übergeben wird, wird das Element an dieser Position entfernt. \nimport java.util.ArrayList; \nArrayList<String> liste = new ArrayList<>(); \nliste.add(\"Apfel\"); \nliste.add(\"Banane\"); \nliste.add(\"Orange\"); \nliste.remove(0); \n// entfernt \"Apfel\" Nach dem Aufruf von remove(0) \nwird das erste Element gelöscht. Alle nachfolgenden Elemente rücken automatisch eine Position nach vorne."
+},
+{
+"id": 124,
+"question": "Muss man eine ArrayList in Java schließen, so wie man einen Scanner schließen sollte?",
+"options": {
+"A": "Ja, eine ArrayList sollte nach der Verwendung immer geschlossen werden.",
+"B": "Nein, eine ArrayList muss nicht geschlossen werden.",
+"C": "Nur wenn während der Nutzung Fehler auftreten, sollte sie geschlossen werden.",
+"D": "Nur bei sehr großen Listen sollte man sie am Ende schließen."
+},
+"correctAnswer": "B",
+"explanation": "Eine ArrayList muss in Java nicht geschlossen werden. Sie ist eine normale Datenstruktur\nim Arbeitsspeicher und verwendet keine externen Ressourcen wie Dateien oder Netzwerkverbindungen. Die Speicherverwaltung übernimmt \nautomatisch die Garbage Collection der Java Virtual Machine."
+},
+{
+"id": 125,
+"question": "Welche Datentypen kann eine ArrayList in Java speichern?",
+"options": {
+"A": "Nur primitive Datentypen wie int oder double",
+"B": "Nur Objekte wie zum Beispiel String oder Integer",
+"C": "Eine ArrayList kann jeden Datentypen speichern",
+"D": "Es handelt sich um eine Struktur die das Array verwaltet"
+},
+"correctAnswer": "B",
+"explanation": "Eine ArrayList kann in Java nur Objekte speichern. Primitive Datentypen \nwie int oder double sind keine Objekte. Deshalb verwendet man sogenannte Wrapper-Klassen wie Integer \noder Double, um diese Werte in Objekten zu speichern. Beispiel: \nArrayList<Integer> zahlen = new ArrayList<>(); \nzahlen.add(5); \nzahlen.add(10); \nzahlen.add(15);"
+},
+{
+"id": 126,
+"question": "Was versteht man in der Programmierung unter einer kopfgesteuerten Schleife?",
+"options": {
+"A": "Eine Schleife, die immer mindestens einmal ausgeführt wird",
+"B": "Eine Schleife, bei der die Bedingung vor jedem Durchlauf geprüft wird",
+"C": "Eine Schleife ohne Abbruchbedingung",
+"D": "Eine Schleife, die nur einmal ausgeführt wird"
+},
+"correctAnswer": "B",
+"explanation": "Eine kopfgesteuerte Schleife ist eine Schleife, bei der die Bedingung vor der Ausführung des \nSchleifenblocks geprüft wird. Nur wenn die Bedingung wahr ist, wird der Code im Inneren ausgeführt. /\nIst die Bedingung bereits zu Beginn falsch, wird die Schleife kein einziges Mal ausgeführt.\nTypische Beispiele in Java sind die while-Schleife und die for-Schleife."
+},
+{
+"id": 127,
+"question": "Was bedeutet „Zuweisung immer von rechts nach links“?",
+"options": {
+"A": "Der Wert links wird nach rechts kopiert",
+"B": "Beide Seiten müssen gleich sein",
+"C": "Der Wert auf der rechten Seite wird der linken Variablen zugewiesen",
+"D": "Der Compiler interpretiert alle Zeilen von rechts nach links"
+},
+"correctAnswer": "C",
+"explanation": "Bei einer Zuweisung in Java wird immer zuerst der Ausdruck auf der rechten Seite ausgewertet \nund das Ergebnis anschließend der Variablen auf der linken Seite zugewiesen. Das bedeutet, die „Richtung“ der \nZuweisung geht von rechts nach links. Ein Beispiel ist \nint x = 5; – \nhier wird der Wert 5 der Variablen x zugewiesen. Auch bei komplexeren Ausdrücken wie \nx = y + 3; \nwird zuerst y + 3 berechnet und danach das Ergebnis in x gespeichert. Wichtig ist dabei, dass links immer eine Variable stehen muss, \ndie den Wert aufnehmen kann.\n "
+},
+{
+"id": 128,
+"question": "Woran erkennt man UpperCamelCase?",
+"options": {
+"A": "Alle Wörter sind klein geschrieben",
+"B": "Wörter sind durch Unterstriche getrennt",
+"C": "Jedes Wort beginnt mit einem Großbuchstaben, auch das erste",
+"D": "Nur das letzte Wort ist groß"
+},
+"correctAnswer": "C",
+"explanation": "UpperCamelCase (auch PascalCase genannt) erkennt man daran, dass jedes Wort eines zusammengesetzten Namens mit einem Großbuchstaben beginnt – auch das erste. \nBeispiele sind Auto, BenutzerName oder KontoDaten. Dadurch lassen sich einzelne Wörter leichter erkennen und der Name wird besser lesbar als z. B. „benutzername“ oder „benutzer_name“."
+},
+{
+"id": 129,
+"question": "Welches aus der folgenden Auswahl ist PascalCase?",
+"options": {
+"A": "benutzerName",
+"B": "Benutzername",
+"C": "benutzer_name",
+"D": "BENUTZERNAME"
+},
+"correctAnswer": "B",
+"explanation": "PascalCase (UpperCamelCase) bedeutet, dass jedes Wort – einschließlich des ersten – mit einem \nGroßbuchstaben beginnt. „Benutzername“ erfüllt diese Regel. „benutzerName“ ist hingegen lowerCamelCase, „benutzer_name“ nutzt \nUnterstriche und „BENUTZERNAME“ ist komplett groß geschrieben und entspricht keiner CamelCase-Konvention."
+},
+{
+"id": 130,
+"question": "Wann wird UpperCamelCase meist angewandt?",
+"options": {
+"A": "Bei Variablen",
+"B": "Bei Methoden",
+"C": "Bei Klassennamen",
+"D": "Bei Kommentaren"
+},
+"correctAnswer": "C",
+"explanation": "UpperCamelCase wird in Java typischerweise für Klassennamen \nverwendet, z. B. Auto, BenutzerKonto oder RechnungSystem. Variablen und Methoden werden dagegen meist in \nlowerCamelCase geschrieben (z. B. berechneSumme). Diese einheitlichen Schreibweisen helfen dabei, verschiedene Elemente im \nCode sofort zu unterscheiden und verbessern die Lesbarkeit."
+}
+
+]
